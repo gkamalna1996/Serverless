@@ -5,6 +5,7 @@ module.exports = async function (context, req) {
     ? "Access granted." : 
     "Access denied."
     context.log(responseMessage)
+    context.log("yolo")
     
     context.res = {
         // status: 200, /* Defaults to 200 */
