@@ -9,11 +9,11 @@ module.exports = async function (context, req) {
 
     const input = req.query.password
     
-    let response = "Access denied"
+    let response = "Access denied."
 
     if (input === "letmein")
     {
-        response = "Access granted"
+        response = "Access granted."
     }
 
     context.res = {
